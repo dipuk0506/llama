@@ -12,7 +12,7 @@ TARGET_FOLDER="."             # where all files should end up
 mkdir -p ${TARGET_FOLDER}
 
 if [[ $MODEL_SIZE == "" ]]; then
-    MODEL_SIZE="7B,13B,70B,7B-chat,13B-chat,70B-chat"
+    MODEL_SIZE="7B"
 fi
 
 echo "Downloading LICENSE and Acceptable Usage Policy"
